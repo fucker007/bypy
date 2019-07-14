@@ -1,10 +1,6 @@
 # bypy
-Requirement already satisfied: bypy in /home/nathan/appStore/anaconda3/lib/python3.7/site-packages (1.6.6)
-Requirement already satisfied: multiprocess>=0.70.0 in /home/nathan/appStore/anaconda3/lib/python3.7/site-packages (from bypy) (0.70.8)
-Requirement already satisfied: requests-toolbelt>=0.8.0 in /home/nathan/appStore/anaconda3/lib/python3.7/site-packages (from bypy) (0.9.1)
-Requirement already satisfied: requests>=2.10.0 in /home/nathan/appStore/anaconda3/lib/python3.7/site-packages (from bypy) (2.21.0)
-Requirement already satisfied: dill>=0.3.0 in /home/nathan/appStore/anaconda3/lib/python3.7/site-packages (from multiprocess>=0.70.0->bypy) (0.3.0)
-Requirement already satisfied: urllib3<1.25,>=1.21.1 in /home/nathan/appStore/anaconda3/lib/python3.7/site-packages (from requests>=2.10.0->bypy) (1.24.1)
-Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /home/nathan/appStore/anaconda3/lib/python3.7/site-packages (from requests>=2.10.0->bypy) (3.0.4)
-Requirement already satisfied: certifi>=2017.4.17 in /home/nathan/appStore/anaconda3/lib/python3.7/site-packages (from requests>=2.10.0->bypy) (2019.3.9)
-Requirement already satisfied: idna<2.9,>=2.5 in /home/nathan/appStore/anaconda3/lib/python3.7/site-packages (from requests>=2.10.0->bypy) (2.8)
+
+`$pip install bypy`#安装python 百度云  
+`$bypy info`用python百度云配置百度云连接  
+当然我们还需要知道如何从百度云中查看有那些文件，这怎么办呢？  
+`$bypy list`  
